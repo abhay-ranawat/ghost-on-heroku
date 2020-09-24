@@ -76,10 +76,10 @@ function createConfig() {
     mail: {
       transport: 'SMTP',
       options: {
-        service: 'Mailgun',
+        service: 'Sendgrid',
         auth: {
-          user: process.env.MAILGUN_SMTP_LOGIN,
-          pass: process.env.MAILGUN_SMTP_PASSWORD
+          user: process.env.SENDGRID_SMTP_LOGIN,
+          pass: process.env.SENDGRID_SMTP_PASSWORD
         }
       }
     },

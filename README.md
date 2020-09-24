@@ -116,11 +116,11 @@ This seems to be a bug in the storage adapter plugin itself (yet to be reported)
 
 #### Setting up SMTP service
 
-When you spin up your heroku dyno for the first time, mailgun is by default setup with a sandbox account. It means, sending emails to only authorized reciepients is supported. If you want to send emails / invite your collaborators you need to set their email in authorized recipient section on mailgun dashboard. See https://help.mailgun.com/hc/en-us/articles/217531258-Authorized-Recipients for more.
+When you spin up your heroku dyno for the first time, sendgrid is by default setup with a  account. you can send email to anybody after verifying.
 
-A more permanent solution would be to use a custom domain and verify your domain via mailgun customer support. Cheers!
+A more permanent solution would be to use a custom domain and verify your domain via sendgrid customer support. Cheers!
 
-FYI: You can access mailgun dashboard by visiting heroku dashboard > click on your app > resources tab > click on mailgun addon.
+FYI: You can access sendgrid dashboard by visiting heroku dashboard > click on your app > resources tab > click on sendgrid addon.
 
 #### Dark Mode is now available
 
